@@ -1,0 +1,31 @@
+--- Job data_agg_GA.gms Start 08/22/20 19:20:16 28.2.0 r750fa45 WEX-WEI x86 64bit/MS Windows
+--- GAMS Parameters defined
+    Input C:\Users\ikiyo\OneDrive\Research_2019\Network\data\R-JIP\aggregation\data_agg_GA.gms
+    PageSize 0
+    ScrDir C:\Users\ikiyo\OneDrive\Research_2019\Network\data\R-JIP\aggregation\225a\
+    SysDir C:\GAMS\win64\28.2\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+GAMS 28.2.0   Copyright (C) 1987-2019 GAMS Development. All rights reserved
+Licensee: Kiyotaka Ishikawa, Single User License         G191217/0001AS-WIN
+          Kyoto University, Graduate School of Agriculture          DC10515
+          License for teaching and research at degree granting institutions
+          i.kiyotaka@gmail.com                                             
+--- Starting compilation
+--- data_agg_GA.gms(34) 3 Mb
+--- GDXin=C:\Users\ikiyo\OneDrive\Research_2019\Network\data\R-JIP\aggregation\GA_70-16.gdx
+--- data_agg_GA.gms(147) 5 Mb
+--- Starting execution: elapsed 0:00:00.011
+--- data_agg_GA.gms(143) 7 Mb
+--- GDX File C:\Users\ikiyo\OneDrive\Research_2019\Network\data\R-JIP\aggregation\results\GA_70-16_agg.gdx
+--- data_agg_GA.gms(145) 7 Mb
+
+GDXXRW           28.2.0 r750fa45 Released Aug 19, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\ikiyo\OneDrive\Research_2019\Network\data\R-JIP\aggregation\results\GA_70-16_agg.gdx
+Output file: C:\Users\ikiyo\OneDrive\Research_2019\Network\data\R-JIP\aggregation\results\GA_70-16_agg.xlsx
+Total time = 4140 Ms
+*** Status: Normal completion
+--- Job data_agg_GA.gms Stop 08/22/20 19:20:21 elapsed 0:00:04.842
