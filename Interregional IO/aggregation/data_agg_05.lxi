@@ -1,0 +1,19 @@
+B 3 C o m p i l a t i o n
+B 279 Include File Summary
+B 292 E x e c u t i o n
+I 295 sam_i
+I 319 sam_j
+I 347 sam_r
+I 352 row_
+I 374 col_
+I 395 fd
+I 406 r_
+I 411 r_r
+I 429 data
+I 22000 agg_i
+I 22005 agg_r
+I 22010 mapagg_i
+I 22085 mapagg_r
+I 22101 map_fd
+I 22122 map_va
+I 22136 dataagg

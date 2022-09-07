@@ -1,0 +1,82 @@
+*        ----------------------------------------------------------------------
+*        Mapping set
+
+set mapagg_i(agg_i,sam_i)  "Mapping set for goods and sectors" /
+    1.(010*030)
+    2.(040)
+    3.(050)
+    4.(060)
+    5.(090,100,480)
+    6.(110)
+    7.(120*140)
+    8.(160)
+    9.(170,180,490)
+    10.(190)
+    11.(200,210)
+    12.(220*240)
+    13.(250,260)
+    14.(270)
+    15.(070,080,150,280)
+    16.(290*310)
+    17.(320*340)
+    18.(350)
+    19.(360)
+    20.(370)
+    21.(380,390)
+    22.(410,420,440,450)
+    23.(400,430)   
+    /;
+
+set mapagg_r(agg_r,sam_r)  "Mapping set for region" /
+    hok.1
+    toh.2
+    kan.3
+    chb.4
+    kin.5
+    chg.6
+    sik.7
+    kyu.8
+    oki.9      /;
+
+alias (agg_i,agg_j);
+alias (agg_r,agg_s);
+display agg_i, agg_r;
+
+set mapagg_j(*,*)
+    mapagg_s(*,*);
+
+mapagg_j(agg_i,sam_i) = mapagg_i(agg_i,sam_i);
+mapagg_s(agg_r,sam_r) = mapagg_r(agg_r,sam_r);
+display mapagg_i, mapagg_r;
+
+set
+    map_fd(s_fd,sam_j) /
+      480.480       
+      490.490  
+      500.500     
+      510.510   
+      520.520 
+      530.530
+      540.540   
+      550.550  
+      560.560  
+      570.570  
+      680.680   
+      690.690
+      700.700   
+      810.810   
+      820.820 
+    /
+    map_va(s_va,sam_i) /
+      500.500    
+      510.510 
+      520.520   
+      530.530  
+      540.540  
+      550.550   
+      560.560   
+      570.570   
+    /;
+
+display map_fd, map_va;
+

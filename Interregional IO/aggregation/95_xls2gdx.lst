@@ -1,0 +1,36 @@
+GAMS 28.2.0  r750fa45 Released Aug 19, 2019 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               05/03/20 00:03:40 Page 1
+Aggregation of IO Table
+C o m p i l a t i o n
+
+
+   2   
+   3  parameter
+   4    data(*,*,*,*)   Reigonal IO data;
+   5   
+   7   
+GAMS 28.2.0  r750fa45 Released Aug 19, 2019 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               05/03/20 00:03:40 Page 2
+Aggregation of IO Table
+Include File Summary
+
+
+   SEQ   GLOBAL TYPE      PARENT   LOCAL  FILENAME
+
+     1        1 INPUT          0       0  C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_published\aggregation\95_xls2gdx.gms
+     2        6 CALL           1       6  gdxxrw h2rio95c.xlsx par=data rng=io!a1:xz600 Rdim=2 Cdim=2
+
+
+COMPILATION TIME     =        3.781 SECONDS      2 MB  28.2.0 r750fa45 WEX-WEI
+
+
+EXECUTION TIME       =        0.000 SECONDS      2 MB  28.2.0 r750fa45 WEX-WEI
+
+
+USER: Kiyotaka Ishikawa, Single User License         G191217/0001AS-WIN
+      Kyoto University, Graduate School of Agriculture          DC10515
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_published\aggregation\95_xls2gdx.gms
+Output     C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_published\aggregation\95_xls2gdx.lst

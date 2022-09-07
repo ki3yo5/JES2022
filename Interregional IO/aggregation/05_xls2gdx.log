@@ -1,0 +1,28 @@
+--- Job 05_xls2gdx.gms Start 05/05/20 16:11:07 28.2.0 r750fa45 WEX-WEI x86 64bit/MS Windows
+--- GAMS Parameters defined
+    Input C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_published\aggregation\05_xls2gdx.gms
+    PageSize 0
+    ScrDir C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_published\aggregation\225a\
+    SysDir C:\GAMS\win64\28.2\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+GAMS 28.2.0   Copyright (C) 1987-2019 GAMS Development. All rights reserved
+Licensee: Kiyotaka Ishikawa, Single User License         G191217/0001AS-WIN
+          Kyoto University, Graduate School of Agriculture          DC10515
+          License for teaching and research at degree granting institutions
+          i.kiyotaka@gmail.com                                             
+--- Starting compilation
+--- 05_xls2gdx.gms(6) 2 Mb
+--- call gdxxrw h2rio05c.xlsx par=data rng=io!a1:abe642 Rdim=2 Cdim=2
+
+GDXXRW           28.2.0 r750fa45 Released Aug 19, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_published\aggregation\h2rio05c.xlsx
+Output file: C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_published\aggregation\h2rio05c.gdx
+Total time = 8813 Ms
+--- 05_xls2gdx.gms(7) 2 Mb
+--- Starting execution - empty program
+*** Status: Normal completion
+--- Job 05_xls2gdx.gms Stop 05/05/20 16:11:17 elapsed 0:00:09.361
