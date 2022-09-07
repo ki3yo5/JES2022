@@ -1,0 +1,150 @@
+GAMS 28.2.0  r750fa45 Released Aug 19, 2019 WEX-WEI x86 64bit/MS Windows - 08/09/20 21:16:29 Page 1
+Aggregation of IO Table
+C o m p i l a t i o n
+
+
+       
+      47ìsìπï{åßÇÃïtâ¡âøíläzÇìùçáÇ∑ÇÈÉvÉçÉOÉâÉÄÅD
+       
+       
+   8   
+  10   
+  13   
+  14  *       ----------------------------------------------------------------------
+  15  *       Set definitions:
+  16  display "com: Set definitions:";
+  17   
+  18  * The aggregated SAM consists of the following elements:
+  19   
+  20  set sam_i      original row of SAM data (region)
+  21       /1*50/;
+  22   
+  23  display sam_i;
+  24   
+  25   
+  26  parameter
+  27    data(*)   "Original Output data";
+  28   
+GDXIN   C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_RAS\aggregation\15_va.gdx
+  30   
+--- LOAD  data = 1:data
+  32   
+  34   
+  35  display "Original data", data;
+  36   
+  37  *       ----------------------------------------------------------------------
+  38  *       Aggregation:
+  39  display "com: Aggregation:";
+  40   
+  41  set agg_i    "Aggregated region (9 regions)" /
+  42      hok                Hokkaido
+  43      toh                Tohoku
+  44      kan                Kanto
+  45      chb                Chubu
+  46      kin                Kinki
+  47      chg                Chugoku
+  48      sik                Sikoku
+  49      kyu                Kyushu
+  50      oki                Okinawa
+  51      tol                Total
+  52      /;
+  53   
+  54   
+  55  *        ----------------------------------------------------------------------
+  56  *        Mapping set
+  57   
+  58  set mapagg_i(agg_i,sam_i)  "Mapping set for region" /
+  59      hok.1
+  60      toh.(2*7)
+  61      kan.(8*15,19,20,22)
+  62      chb.(16,17,21,23,24)
+  63      kin.(18,25*30)
+  64      chg.(31*35)
+  65      sik.(36*39)
+  66      kyu.(40*46)
+  67      oki.47
+  68      tol.50
+  69      /;
+  70   
+  71   
+  72  display agg_i;
+  73   
+  74   
+  75  parameter
+  76    dataagg(*)  "aggregated SAM (bil yen)";
+  77   
+  78  dataagg(agg_i)
+  79        = sum((sam_i)$
+  80            (mapagg_i(agg_i,sam_i)),
+  81               data(sam_i));
+  82   
+  83  display dataagg;
+  84   
+  85   
+  86  *       Export new data set:
+  87  Execute_Unload '.\results\15_va_agg.gdx',agg_i,dataagg;
+  88   
+  89  execute 'gdxxrw .\results\15_va_agg.gdx o=.\results\15_va_agg.xlsx par=dataagg rng=data!A1 rdim=1 cdim=0'
+  90   
+EXIT C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_RAS\aggregation\va_agg.gms
+GAMS 28.2.0  r750fa45 Released Aug 19, 2019 WEX-WEI x86 64bit/MS Windows - 08/09/20 21:16:29 Page 2
+Aggregation of IO Table
+Include File Summary
+
+
+   SEQ   GLOBAL TYPE      PARENT   LOCAL  FILENAME
+
+     1        1 INPUT          0       0  C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_RAS\aggregation\va_agg.gms
+     2       29 GDXIN          1      29  C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_RAS\aggregation\15_va.gdx
+     3       91 EXIT           1      91  C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_RAS\aggregation\va_agg.gms
+
+
+COMPILATION TIME     =        0.000 SECONDS      3 MB  28.2.0 r750fa45 WEX-WEI
+GAMS 28.2.0  r750fa45 Released Aug 19, 2019 WEX-WEI x86 64bit/MS Windows - 08/09/20 21:16:29 Page 3
+Aggregation of IO Table
+E x e c u t i o n
+
+
+----     16 com: Set definitions:
+
+----     23 SET sam_i  original row of SAM data (region)
+
+1 ,    2 ,    3 ,    4 ,    5 ,    6 ,    7 ,    8 ,    9 ,    10,    11,    12,    13,    14,    15,    16,    17,    18,    19,    20,    21,    22,    23,    24,    25,    26,    27,    28,    29,    30,    31,    32,    33,    34,    35,    36,    37
+38,    39,    40,    41,    42,    43,    44,    45,    46,    47,    48,    49,    50
+
+
+----     35 Original data
+
+----     35 PARAMETER data  Original Output data
+
+1  1.904849E+7,    2  4546646.000,    3  4674248.000,    4  9486515.000,    5  3395279.000,    6  3919069.000,    7  7812158.000,    8  1.299550E+7,    9  9027043.000,    10 8518120.000,    11 2.255596E+7,    12 2.033444E+7,    13 1.038047E+8
+14 3.409170E+7,    15 8820650.000,    16 4616649.000,    17 4602585.000,    18 3262338.000,    19 3306825.000,    20 8246750.000,    21 7554189.000,    22 1.695318E+7,    23 3.952966E+7,    24 7949593.000,    25 6181748.000,    26 1.028166E+7
+27 3.901809E+7,    28 2.082939E+7,    29 3559730.000,    30 3523566.000,    31 1836990.000,    32 2486729.000,    33 7781601.000,    34 1.181063E+7,    35 5892937.000,    36 3099765.000,    37 3742157.000,    38 4910648.000,    39 2392597.000
+40 1.895749E+7,    41 2849442.000,    42 4460704.000,    43 5667957.000,    44 4388806.000,    45 3619974.000,    46 5293876.000,    47 4110506.000,    50 5.457493E+8
+
+
+----     39 com: Aggregation:
+
+----     72 SET agg_i  Aggregated region (9 regions)
+
+hok,    toh,    kan,    chb,    kin,    chg,    sik,    kyu,    oki,    tol
+
+
+----     83 PARAMETER dataagg  aggregated SAM (bil yen)
+
+hok 1.904849E+7,    toh 3.383392E+7,    kan 2.486549E+8,    chb 6.425267E+7,    kin 8.665651E+7,    chg 2.980889E+7,    sik 1.414517E+7,    kyu 4.523825E+7,    oki 4110506.000,    tol 5.457493E+8
+
+
+
+EXECUTION TIME       =        4.500 SECONDS      4 MB  28.2.0 r750fa45 WEX-WEI
+
+
+USER: Kiyotaka Ishikawa, Single User License         G191217/0001AS-WIN
+      Kyoto University, Graduate School of Agriculture          DC10515
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_RAS\aggregation\va_agg.gms
+Output     C:\Users\ikiyo\OneDrive\Research_2019\Network\data\RIO_RAS\aggregation\va_agg.lst
