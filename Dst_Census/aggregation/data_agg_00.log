@@ -1,0 +1,37 @@
+Output file: C:\Users\ikiyo\OneDrive\Research_2019\Network\da--- Job data_agg_00.gms Start 05/03/20 17:11:25 28.2.0 r750fa45 WEX-WEI x86 64bit/MS Windows
+--- GAMS Parameters defined
+    Input C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\data_agg_00.gms
+    PageSize 0
+    ScrDir C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\225a\
+    SysDir C:\GAMS\win64\28.2\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+GAMS 28.2.0   Copyright (C) 1987-2019 GAMS Development. All rights reserved
+Licensee: Kiyotaka Ishikawa, Single User License         G191217/0001AS-WIN
+          Kyoto University, Graduate School of Agriculture          DC10515
+          License for teaching and research at degree granting institutions
+          i.kiyotaka@gmail.com                                             
+--- Starting compilation
+--- data_agg_00.gms(43) 3 Mb
+--- GDXin=C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\00_dist_out.gdx
+--- data_agg_00.gms(47) 3 Mb
+--- GDXin=C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\00_dist_in.gdx
+--- data_agg_00.gms(51) 3 Mb
+--- GDXin=C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\00_dist_ex.gdx
+--- data_agg_00.gms(55) 3 Mb
+--- GDXin=C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\00_dist_im.gdx
+--- data_agg_00.gms(164) 3 Mb
+--- Starting execution: elapsed 0:00:00.004
+--- data_agg_00.gms(160) 4 Mb
+--- GDX File C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\results\00_dist_agg.gdx
+--- data_agg_00.gms(162) 4 Mb
+
+GDXXRW           28.2.0 r750fa45 Released Aug 19, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\results\00_dist_agg.gdx
+Output file: C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\results\00_dist_agg.xlsx
+Total time = 1329 Ms
+*** Status: Normal completion
+--- Job data_agg_00.gms Stop 05/03/20 17:11:27 elapsed 0:00:01.532

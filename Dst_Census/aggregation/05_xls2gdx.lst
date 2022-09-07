@@ -1,0 +1,44 @@
+GAMS 28.2.0  r750fa45 Released Aug 19, 2019 WEX-WEI x86 64bit/MS Windows - 05/03/20 20:18:46 Page 1
+Aggregation of Dist Table
+C o m p i l a t i o n
+
+
+   2   
+   3  parameter
+   4    dist_out(*,*)  Prefectural dist-out data,
+   5    dist_in(*,*)   Prefectural dist-in data,
+   6    dist_ex(*,*)   Prefectural export data,
+   7    dist_im(*,*)   Prefectural import data;
+   8   
+  10   
+  12   
+  14   
+GAMS 28.2.0  r750fa45 Released Aug 19, 2019 WEX-WEI x86 64bit/MS Windows - 05/03/20 20:18:46 Page 2
+Aggregation of Dist Table
+Include File Summary
+
+
+   SEQ   GLOBAL TYPE      PARENT   LOCAL  FILENAME
+
+     1        1 INPUT          0       0  C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\05_xls2gdx.gms
+     2        9 CALL           1       9  gdxxrw 05_dist_out.xls par=dist_out rng=dist_out!a1:bg49 Rdim=1 Cdim=1
+     3       11 CALL           1      11  gdxxrw 05_dist_in.xls par=dist_in rng=dist_in!a1:bg49 Rdim=1 Cdim=1
+     4       13 CALL           1      13  gdxxrw 05_dist_ex.xls par=dist_ex rng=dist_ex!a1:bg49 Rdim=1 Cdim=1
+     5       15 CALL           1      15  gdxxrw 05_dist_im.xls par=dist_im rng=dist_im!a1:bg49 Rdim=1 Cdim=1
+
+
+COMPILATION TIME     =        5.610 SECONDS      2 MB  28.2.0 r750fa45 WEX-WEI
+
+
+EXECUTION TIME       =        0.000 SECONDS      2 MB  28.2.0 r750fa45 WEX-WEI
+
+
+USER: Kiyotaka Ishikawa, Single User License         G191217/0001AS-WIN
+      Kyoto University, Graduate School of Agriculture          DC10515
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\05_xls2gdx.gms
+Output     C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\05_xls2gdx.lst

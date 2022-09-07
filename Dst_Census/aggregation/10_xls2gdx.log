@@ -1,0 +1,54 @@
+--- Job 10_xls2gdx.gms Start 05/03/20 21:32:32 28.2.0 r750fa45 WEX-WEI x86 64bit/MS Windows
+--- GAMS Parameters defined
+    Input C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\10_xls2gdx.gms
+    PageSize 0
+    ScrDir C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\225a\
+    SysDir C:\GAMS\win64\28.2\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+GAMS 28.2.0   Copyright (C) 1987-2019 GAMS Development. All rights reserved
+Licensee: Kiyotaka Ishikawa, Single User License         G191217/0001AS-WIN
+          Kyoto University, Graduate School of Agriculture          DC10515
+          License for teaching and research at degree granting institutions
+          i.kiyotaka@gmail.com                                             
+--- Starting compilation
+--- 10_xls2gdx.gms(9) 2 Mb
+--- call gdxxrw 10_dist_out.xls par=dist_out rng=dist_out!a1:bg49 Rdim=1 Cdim=1
+
+GDXXRW           28.2.0 r750fa45 Released Aug 19, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\10_dist_out.xls
+Output file: C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\10_dist_out.gdx
+Total time = 1235 Ms
+--- 10_xls2gdx.gms(10) 2 Mb
+--- 10_xls2gdx.gms(11) 2 Mb
+
+--- call gdxxrw 10_dist_in.xls par=dist_in rng=dist_in!a1:bg49 Rdim=1 Cdim=1
+
+GDXXRW           28.2.0 r750fa45 Released Aug 19, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\10_dist_in.xls
+Output file: C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\10_dist_in.gdx
+Total time = 1203 Ms
+--- 10_xls2gdx.gms(12) 2 Mb
+--- 10_xls2gdx.gms(13) 2 Mb
+
+--- call gdxxrw 10_dist_ex.xls par=dist_ex rng=dist_ex!a1:bg49 Rdim=1 Cdim=1
+
+GDXXRW           28.2.0 r750fa45 Released Aug 19, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\10_dist_ex.xls
+Output file: C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\10_dist_ex.gdx
+Total time = 1172 Ms
+--- 10_xls2gdx.gms(14) 2 Mb
+--- 10_xls2gdx.gms(15) 2 Mb
+
+--- call gdxxrw 10_dist_im.xls par=dist_im rng=dist_im!a1:bg49 Rdim=1 Cdim=1
+
+GDXXRW           28.2.0 r750fa45 Released Aug 19, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\10_dist_im.xls
+Output file: C:\Users\ikiyo\OneDrive\Research_2019\Network\data\Dist_census\aggregation\10_dist_im.gdx
+Total time = 1172 Ms
+--- Starting execution - empty program
+*** Status: Normal completion
+--- Job 10_xls2gdx.gms Stop 05/03/20 21:32:38 elapsed 0:00:05.645
