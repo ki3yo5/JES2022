@@ -1,0 +1,31 @@
+--- Job data_agg_06-16.gms Start 08/17/20 13:10:24 28.2.0 r750fa45 WEX-WEI x86 64bit/MS Windows
+--- GAMS Parameters defined
+    Input C:\Users\ikiyo\OneDrive\Research_2019\Network\data\SNA_Kenmin\aggregation\data_agg_06-16.gms
+    PageSize 0
+    ScrDir C:\Users\ikiyo\OneDrive\Research_2019\Network\data\SNA_Kenmin\aggregation\225a\
+    SysDir C:\GAMS\win64\28.2\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+GAMS 28.2.0   Copyright (C) 1987-2019 GAMS Development. All rights reserved
+Licensee: Kiyotaka Ishikawa, Single User License         G191217/0001AS-WIN
+          Kyoto University, Graduate School of Agriculture          DC10515
+          License for teaching and research at degree granting institutions
+          i.kiyotaka@gmail.com                                             
+--- Starting compilation
+--- data_agg_06-16.gms(34) 3 Mb
+--- GDXin=C:\Users\ikiyo\OneDrive\Research_2019\Network\data\SNA_Kenmin\aggregation\50seisan_06-16.gdx
+--- data_agg_06-16.gms(167) 4 Mb
+--- Starting execution: elapsed 0:00:00.014
+--- data_agg_06-16.gms(163) 5 Mb
+--- GDX File C:\Users\ikiyo\OneDrive\Research_2019\Network\data\SNA_Kenmin\aggregation\results\50seisan_06-16_agg.gdx
+--- data_agg_06-16.gms(165) 5 Mb
+
+GDXXRW           28.2.0 r750fa45 Released Aug 19, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\ikiyo\OneDrive\Research_2019\Network\data\SNA_Kenmin\aggregation\results\50seisan_06-16_agg.gdx
+Output file: C:\Users\ikiyo\OneDrive\Research_2019\Network\data\SNA_Kenmin\aggregation\results\50seisan_06-16_agg.xlsx
+Total time = 4282 Ms
+*** Status: Normal completion
+--- Job data_agg_06-16.gms Stop 08/17/20 13:10:29 elapsed 0:00:04.957

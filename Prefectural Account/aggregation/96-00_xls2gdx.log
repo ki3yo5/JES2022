@@ -1,0 +1,27 @@
+--- Job 96-00_xls2gdx.gms Start 05/04/20 01:24:27 28.2.0 r750fa45 WEX-WEI x86 64bit/MS Windows
+--- GAMS Parameters defined
+    Input C:\Users\ikiyo\OneDrive\Research_2019\Network\data\SNA_Kenmin\aggregation\96-00_xls2gdx.gms
+    PageSize 0
+    ScrDir C:\Users\ikiyo\OneDrive\Research_2019\Network\data\SNA_Kenmin\aggregation\225a\
+    SysDir C:\GAMS\win64\28.2\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+GAMS 28.2.0   Copyright (C) 1987-2019 GAMS Development. All rights reserved
+Licensee: Kiyotaka Ishikawa, Single User License         G191217/0001AS-WIN
+          Kyoto University, Graduate School of Agriculture          DC10515
+          License for teaching and research at degree granting institutions
+          i.kiyotaka@gmail.com                                             
+--- Starting compilation
+--- 96-00_xls2gdx.gms(6) 2 Mb
+--- call gdxxrw 50seisan_96-00.xls par=data rng=output_96-00!a1:am236 Rdim=2 Cdim=1
+
+GDXXRW           28.2.0 r750fa45 Released Aug 19, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\ikiyo\OneDrive\Research_2019\Network\data\SNA_Kenmin\aggregation\50seisan_96-00.xls
+Output file: C:\Users\ikiyo\OneDrive\Research_2019\Network\data\SNA_Kenmin\aggregation\50seisan_96-00.gdx
+Total time = 1266 Ms
+--- Starting execution - empty program
+*** Status: Normal completion
+--- Job 96-00_xls2gdx.gms Stop 05/04/20 01:24:28 elapsed 0:00:01.488

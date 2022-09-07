@@ -1,0 +1,313 @@
+[SOLVERS]
+MCP=PATH
+
+[RP:TEST_ALT]
+1=
+
+[RP:GTAP]
+1=
+
+[RP:GTAP_MODEL]
+1=
+
+[RP:SOLVE_MCP]
+1=
+
+[RP:SERVICE_LIB]
+1=
+
+[RP:SERVICE_TRADE_LIB]
+1=
+
+[RP:NO_TARIFF_ADJ]
+1=
+
+[RP:ALT_INCTAX]
+1=
+
+[RP:GTAP_EXPORT_SOLUTION]
+1=
+
+[RP:GTAP_UPDATE_DATA]
+1=
+
+[RP:GTAP_APP_PARAMETERS]
+1=
+
+[RP:UNIFORM]
+1=
+
+[RP:TOT_DEFAULT]
+1=
+
+[RP:TAX_DEFAULT]
+1=
+
+[GDXDIFF]
+FILE1=
+FILE2=
+OUTFL=
+EPS=0.0
+RELEPS=0.0
+SETIGN=0
+FIELD=All fields
+FIELDONLY=0
+DIFFONLY=0
+
+[GDXDISP: data52 Par 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[RP:REGIONIO52_XLS2GDX]
+1=gdxxrw RegionIO52.xls par=data52 rng=iodata!a1:m31837 Rdim=3 Cdim=1
+2=
+
+[GDXDISP: caps0 Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: cgs0 Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: cps0 Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: ex0 Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: i Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: igs0 Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: ijs0 Par 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: im0 Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: invs0 Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: labs0 Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: r Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: tm0 Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: tmm0 Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: tys0 Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: data344 Par 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[RP:BUILD]
+1=
+
+[RP:GTAP6DATA]
+1=
+
+[RP:GAMS-F]
+1=
+
+[RP:ELAS_LARGE]
+1=
+
+[RP:TAX_ALT]
+1=
+
+[RP:DEFAULT_EXP]
+1=
+
+[RP:CHECK_BENCHMARK_DATA]
+1=
+
+[RP:REGIONIO344_XLS2GDX]
+1=
+
+[GDXDISP: iijs0 Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: avs0 Par 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: fds0 Par 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: s_va Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: s_fd Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[RP:DATA_AGG(SAITO2)]
+1=
+
+[RP:DATA_AGG(SAITO1)]
+1=
+
+[GDXDISP: itc Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[RP:RDC_T-3]
+1=
+
+[RP:RDC_T-1]
+1=
+
+[RP:OUTPUT_RESULTS_TO_EXCEL]
+1=
+
+[RP:OUTPUT_RESULTS_MCP]
+1=
+
+[RP:OUTPUT_RESULTS]
+1=
+
+[RP:PARAMETERS_FOR_RESULTS]
+1=
+
+[RP:DATA_AGG]
+1=
+
+[RP:MAIN_PROGRAM]
+1=
+
+[MRUFILES]
+1=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2017\CGE_files\data_aggregation\data_agg.gms
+2=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2017\CGE_files\simulation\t-1_exp.lst
+3=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2017\CGE_files\simulation\rdc_t-1.gms
+4=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2017\IO_INV-CAP\io_invtocap.gdx
+5=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2017\CGE_files\simulation\rdc_t-3.gms
+6=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2017\CGE_files\simulation\io_invtocap.gdx
+7=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2013\data_aggregation_excel\data_agg.gms
+8=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2013\data_aggregation_excel\data_agg(saito1).gms
+9=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2013\data_aggregation_excel\data_agg(saito2).gms
+
+[OPENWINDOW_1]
+FILE0=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2017\CGE_files\simulation\main_program.gms
+FILE1=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2017\CGE_files\simulation\output_results.gms
+FILE2=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2017\CGE_files\simulation\output_results_mcp.gms
+FILE3=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2017\CGE_files\simulation\output_results_to_excel.gms
+FILE4=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2017\CGE_files\simulation\parameters_for_results.gms
+FILE5=C:\Users\Kiyotaka Ishikawa\OneDrive\Research_2017\CGE_files\simulation\output_results.gms
+MAXIM=1
+TOP=0
+LEFT=0
+HEIGHT=628
+WIDTH=1608
